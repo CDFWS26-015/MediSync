@@ -50,6 +50,25 @@ We apply **GitHub Flow** :
 git commit -m "Add architecture overview"
 git commit -m "Fix broken link in backlog"
 ```
+---
+
+## 🔀 Merge Strategy
+
+We use **Squash and Merge** when closing Pull Requests.
+
+**Why ?**
+- Keeps the `main` history clean and linear
+- Each feature becomes a single, readable commit on `main`
+- Easier to revert a feature if needed
+
+**Example**
+Multiple commits on a feature branch :
+```
+Add base structure for architecture doc
+Fix typo
+Add missing section
+```
+Become a single commit on `main`
 
 ---
 
