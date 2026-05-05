@@ -1,7 +1,7 @@
-'''
+```
 main
 ├── docs/readme
 ├── feature/backlog
-└── feature/architecture
+├── feature/architecture
 └── workflow-theory
-'''
+```
